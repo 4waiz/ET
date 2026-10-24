@@ -2,7 +2,7 @@ import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { FiCopy, FiCheck } from 'react-icons/fi'
 import { useCopy } from '../hooks/useCopy'
 
-const apiKey = 'etv_live_8b2c9f07b1a3d2e9f1b0'
+const apiKey = 'etv_live_XXXXXXXXXXXXXXXX'
 
 export function ApiSnippet() {
   const { copied, copy } = useCopy()
